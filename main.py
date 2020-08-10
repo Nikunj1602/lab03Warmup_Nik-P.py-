@@ -12,3 +12,12 @@ def drawPicture(theTurtle):
 
 myTurtle = turtle.Turtle()  # Create a new Turtle object
 drawPicture(myTurtle)   # make the new Turtle draw the shape
+
+myTurtle = turtle.Turtle()
+turtle1 = turtle.Turtle()
+turtle2 = turtle.Turtle()
+turtle1.setpos(-50, -50)
+turtle2.setpos(200, 100)
+turtle1.forward(100)
+turtle2.left(90)
+turtle2.forward(100)
